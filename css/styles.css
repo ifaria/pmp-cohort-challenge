@@ -157,7 +157,7 @@ font-size: 4em;
     display: block;
     background-image: url(../img/skyscrapers2.jpg);
     background-size: cover;
-    height: 700px;
+    height: 710px;
 }
 
 .title {
@@ -216,12 +216,13 @@ font-size: 4em;
 } 
 
 .cards {
-    height: 500px;
+    height: auto;
     width: 100%;
     z-index: -1;
     display: inline-block;
     background-image: url(../img/court3.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     color: black;
     padding-top: 20px;
     position: relative;
@@ -234,24 +235,24 @@ font-size: 4em;
     padding: 50px;
     font-size: 2em;
 } 
-/*   
+  
 .caption {
  border: solid black 1px;
  padding: 0 20px 0 20px;
  margin: 20px auto 20px auto;
  height: 300px;
  width: 100%;
-}  */
+}  
 
 .section-3 {
     height: 200px;
     width: 100%;
     z-index: -1;
     display: inline-block;
-    background-image: url(../img/court3.jpg);
-    background-size: cover;
+    /* background-image: url(../img/court3.jpg);
+    background-size: cover; */
     background-color: black;
-    color: black;
+    color: white;
     padding-top: 20px;
 } 
  
@@ -273,7 +274,6 @@ font-size: 4em;
     display: inline-block;
     background-image: url(../img/securitybankbw.jpg);
     background-size: cover;
-    background-color: black;
     color: white;
     padding-top: 20px;
 } 
