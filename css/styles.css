@@ -85,7 +85,6 @@ body {
     border: 1px solid #4d2100;
     border-radius: 5px;
     padding: 10px 24px;
-
 }
 
 .navigationList-link:link {
@@ -111,13 +110,7 @@ body {
     }
     .logo span{
     font-size: .5em;
-}}
-
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    }
 }
 
 .burger {
@@ -137,9 +130,8 @@ body {
         display: block;
     }
     .burger i {
-font-size: 4em;
+        font-size: 4em;
     }
-
 }
 
 @media (max-width: 700px) {
@@ -151,6 +143,7 @@ font-size: 4em;
         right: 10px;
     }
 }
+
 .title--big {
     width: 100%;
     z-index: -1;
@@ -215,10 +208,10 @@ font-size: 4em;
     }
 } 
 
-.cards {
+.pain-proposition {
     height: auto;
     width: 100%;
-    z-index: -1;
+    z-index: 1;
     display: inline-block;
     background-image: url(../img/court3.jpg);
     background-size: cover;
@@ -234,46 +227,98 @@ font-size: 4em;
     margin-right: auto; 
     padding: 50px;
     font-size: 2em;
+    text-align: center;
+    color: black;
 } 
+
+.pain-prop:first-child h2 {
+    text-align: center;
+    font-size: 1.25em;
+    font-family: 'Biryani', serif; 
+    /* font-family: 'Open Sans'; */
+}
   
 .caption {
  border: solid black 1px;
- padding: 0 20px 0 20px;
+ padding: 20px;
  margin: 20px auto 20px auto;
- height: 300px;
+ height: 600px;
  width: 100%;
+ background-color: rgb(255, 255, 255, .6);
+ text-align: center;
+ z-index: 2;
+ font-family: 'Open Sans';
+ text-align: justify;
 }  
 
-.section-3 {
+.caption h3 {
+    font-family: 'Biryani';
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.thumb {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.sell-transition {
     height: 200px;
     width: 100%;
     z-index: -1;
-    display: inline-block;
-    /* background-image: url(../img/court3.jpg);
-    background-size: cover; */
-    background-color: black;
+    background-image: url(../img/books.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
-    padding-top: 20px;
+    border-top: solid 4px white;
+    border-bottom: solid 4px white;
 } 
- 
-.active {
-    background-color: #fff;
-    transition: ease 1s;
-}
 
 .sec-3 h2 {
     margin-left: auto;
     margin-right: auto;
     font-size: 3em;
+    text-align: center;
+    height: 100%;
+    position: relative;
+    top: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    padding: 0;    
 }
 
-.section-4 {
-    height: 500px;
+.about-us {
+    height: 700px;
     width: 100%;
-    z-index: -1;
-    display: inline-block;
-    background-image: url(../img/securitybankbw.jpg);
-    background-size: cover;
+    display: block;
     color: white;
     padding-top: 20px;
+    position: relative;
+    background-color: white;
+    opacity: .9;
 } 
+
+.about-us::after {
+    content: "";
+    background-image: url(../img/securitybankbw.jpg);
+    background-size: cover;
+    opacity: .9;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+.contact-us {
+    height: 300px;
+}
+
+.active {
+    background-color: #fff;
+    transition: ease 1s;
+}
