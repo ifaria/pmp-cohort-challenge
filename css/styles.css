@@ -190,7 +190,8 @@ font-size: 4em;
 
 @media (max-width: 675px) {
     .title {
-        height: 350px;
+        height: auto;
+        max-width: 100%;
         background-size: cover;
     }
 
@@ -207,18 +208,19 @@ font-size: 4em;
 } 
 
 .cards {
-    background-color: white;
     height: 550px;
     width: 100%;
     z-index: -1;
     display: inline-block;
     background-image: url(../img/court2.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    /* vertical-align: 50%;   */
+    color: black;
 }
 
-
+.active {
+    background-color: #fff;
+    transition: ease-in-out 1s;
+}
 
 /* 
 .col {
