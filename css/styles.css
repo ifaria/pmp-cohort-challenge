@@ -151,7 +151,7 @@ font-size: 4em;
     width: 100%;
     z-index: -1;
     display: inline-block;
-    background-image: url(/img/skyscrapers2.jpg);
+    background-image: url(../img/skyscrapers2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     vertical-align: 50%;
@@ -212,7 +212,7 @@ font-size: 4em;
     width: 100%;
     z-index: -1;
     display: inline-block;
-    background-image: url(/img/court2.jpg);
+    background-image: url(../img/court2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* vertical-align: 50%;   */
